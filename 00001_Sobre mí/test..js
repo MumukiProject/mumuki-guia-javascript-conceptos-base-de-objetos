@@ -1,12 +1,12 @@
 describe("", function() {
   it("", function() {
-    assert(sobreMi.nombre.length > 0);
+    assert(sobreMi.nombre);
   })
 })
 
 describe("", function() {
   it("", function() {
-    assert(sobreMi.apellido.length > 0);
+    assert(sobreMi.apellido);
   })
 })
 
