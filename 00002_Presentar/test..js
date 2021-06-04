@@ -5,7 +5,7 @@ describe("Se declaró la variable perfil", function() {
 })
 
 describe("", function() {
-  it("user tiene la propiedad name", function() {
+  it("user tiene la propiedad nombre", function() {
     assert(perfil.nombre);
   })
 })
@@ -17,7 +17,7 @@ describe("", function() {
 })
 
 describe("", function() {
-  it("user tiene la propiedad age", function() {
+  it("user tiene la propiedad edad", function() {
     assert(perfil.edad);
   })
 })
