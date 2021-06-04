@@ -5,6 +5,6 @@ describe("", function() {
 })
 describe("", function() {
   it("  ", function() {
-    assert.that(sobreMi.nombre.length > 0);
+    assert(sobreMi.nombre.length > 0);
   })
 })
