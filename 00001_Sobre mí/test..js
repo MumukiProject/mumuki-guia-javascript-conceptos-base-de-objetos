@@ -12,6 +12,6 @@ describe("", function() {
 
 describe("", function() {
   it("", function() {
-    assert.equal(sobreMi.edad > 0);
+    assert(sobreMi.edad);
   })
 })
