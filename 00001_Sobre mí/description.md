@@ -1,3 +1,5 @@
-- Crear una variable llamada sobreMi, a la que le vamos a asignar un objeto.
-- El objeto tiene que tener 3 propiedades: nombre, apellido, edad
-- Mostrar en consola el objeto sobreMi
+Para comenzar este recorrido vamos a empezar creando nuestro primer objeto. :star_struck:
+
+Para ello vamos a declarar una variable que la vamos a llamar `sobreMi`, la misma debe definir un objeto con tres propiedades: `nombre`, `apellido` y `edad`.
+
+> Creá el código JavaScript que acabamos de describir.
