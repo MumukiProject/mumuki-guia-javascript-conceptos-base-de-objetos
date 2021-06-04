@@ -1,12 +1,17 @@
 describe("", function() {
   it("", function() {
-    assert(sobreMi.contains('nombre'));
-    assert(sobreMi.contains('apellido'));
-    assert(sobreMi.contains('edad'));
+    assert(sobreMi.nombre.length > 0);
   })
 })
+
 describe("", function() {
   it("", function() {
-    assert(sobreMi.nombre.length > 0);
+    assert(sobreMi.apellido.length > 0);
+  })
+})
+
+describe("", function() {
+  it("", function() {
+    assert(sobreMi.edad.length > 0);
   })
 })
