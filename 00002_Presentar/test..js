@@ -1,23 +1,37 @@
-describe("Se declaró la variable user", function() {
+describe("Se declaró la variable perfil", function() {
   it("", function() {
-    assert(user);
+    assert(perfil);
   })
 })
 
 describe("", function() {
-  it("user tiene la propiedad fullname", function() {
-    assert(user.fullname);
+  it("user tiene la propiedad name", function() {
+    assert(perfil.nombre);
   })
 })
 
 describe("", function() {
   it("user tiene la propiedad email", function() {
-    assert(user.email);
+    assert(perfil.email);
   })
 })
 
 describe("", function() {
   it("user tiene la propiedad age", function() {
-    assert(user.age);
+    assert(perfil.edad);
+  })
+})
+
+describe("", function() {
+  it("Se declaró la función presentacion", function() {
+    assert(perfil.presentacion);
+  })
+})
+
+describe("", function() {
+  it("Si el nombre es Juli y la edad es 48, retorna Hola, mi nombre es Juli y tengo 48 años", function() {
+    perfil.nombre = 'Juli';
+    perfil.edad = 48;
+    let assert.equal(perfil.presentacion(),'Hola, mi nombre es Juli y tengo 48 años');
   })
 })
