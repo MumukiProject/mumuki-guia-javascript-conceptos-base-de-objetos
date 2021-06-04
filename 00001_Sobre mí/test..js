@@ -1,5 +1,11 @@
 describe("", function() {
   it("", function() {
+    assert(sobreMi);
+  })
+})
+
+describe("", function() {
+  it("", function() {
     assert(sobreMi.nombre);
   })
 })
