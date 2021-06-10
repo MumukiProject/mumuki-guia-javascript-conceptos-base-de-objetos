@@ -36,7 +36,7 @@ describe("", function() {
 
 describe("", function() {
   it("Si song tiene un title 'Shine on you crazy diamond' la cancion tiene como titulo 'Shine on you crazy diamond'", function() {
-    let song = {
+    song = {
     title: 'Shine on you crazy diamond',
     bandName: "Pink Floyd",
     duration: 1560000,
