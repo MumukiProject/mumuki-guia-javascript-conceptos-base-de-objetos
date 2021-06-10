@@ -16,7 +16,7 @@ describe("", function() {
     let song = {
       title: 'Shine on you crazy diamond',
       bandName: "Pink Floyd",
-      duration: 1560000,
+      duration: 1571000,
       album: "Wish you where here",
     };
     let resultado = cancion(song);
