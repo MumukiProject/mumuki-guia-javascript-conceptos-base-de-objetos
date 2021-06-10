@@ -1,5 +1,5 @@
 Tenemos un objeto en la variable `song` con diferentes propiedades que representan una canción de spotify.
-Queremos crear un nuevo objeto, guardándolo en la variable `cancion`, a partir de las propiedades del objeto que tenemos en `song`, el mismo debe tener las propiedades **titulo**, **banda**, y **duracion** (en segundos, ya que en el objeto original `song` está en milisegundos)
+Queremos retornar en una función `cancion` un nuevo objeto, a partir de las propiedades del objeto que recibimos como argumento. El mismo debe tener las propiedades **titulo**, **banda**, y **duracion** (en segundos, ya que en el parametro está en milisegundos)
 
 ```js
 let song = {
@@ -9,5 +9,5 @@ let song = {
   album: "Led Zeppelin IV",
 };
 
-ム cancion;
+ム cancion(song)
 { titulo: 'Rock and Roll', banda: 'Led Zeppelin', duracion: 166 }
