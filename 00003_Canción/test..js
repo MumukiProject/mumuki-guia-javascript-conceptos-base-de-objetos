@@ -21,3 +21,9 @@ describe("", function() {
     assert(cancion.duracion);
   })
 })
+
+describe("", function() {
+  it("cancion tiene la propiedad duracion", function() {
+    assert(cancion.duracion);
+  })
+})
