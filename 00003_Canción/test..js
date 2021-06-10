@@ -13,7 +13,7 @@ describe("", function() {
 
 describe("", function() {
   it("Si la canción recibida por parámetro tiene un title 'Shine on you crazy diamond' la cancion retornada tiene como titulo 'Shine on you crazy diamond'", function() {
-    song = {
+    let song = {
       title: 'Shine on you crazy diamond',
       bandName: "Pink Floyd",
       duration: 1560000,
@@ -26,7 +26,7 @@ describe("", function() {
 
 describe("", function() {
   it("Si la canción recibida por parámetro tiene una bandName 'Eruca Sativa' la cancion retornada tiene como banda 'Eruca Sativa'", function() {
-    song = {
+    let song = {
       title: 'Creo',
       bandName: "Eruca Sativa",
       duration: 233000,
