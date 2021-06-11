@@ -20,6 +20,7 @@ Nos pasaron un listado de personas y necesitamos guardarlo en una base de datos,
 
 ```
 > Definí un objeto para cada persona.
+
 - Nos pidieron mostrar en la consola los siguientes datos de cada persona:
 
 ```js
