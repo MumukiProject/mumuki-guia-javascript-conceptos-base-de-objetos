@@ -36,7 +36,7 @@ describe("", function() {
 
 describe("", function() {
   it("grace tiene email grace@hotmail.com", function() {
-    assert.equal(grace.email, grace@hotmail.com);
+    assert.equal(grace.email, 'grace@hotmail.com');
   })
 })
 
