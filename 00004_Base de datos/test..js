@@ -53,8 +53,8 @@ describe("", function() {
 })
 
 describe("", function() {
-  it("sheryl tiene telefono 1234509876 y nombre Sheryl Sandberg", function() {
-    assert.equal(sheryl.telefono, 1234509876);
+  it("sheryl tiene telefono 5432167890 y nombre Sheryl Sandberg", function() {
+    assert.equal(sheryl.telefono, 5432167890);
     assert.equal(sheryl.nombre, 'Sheryl Sandberg');
   })
 })
