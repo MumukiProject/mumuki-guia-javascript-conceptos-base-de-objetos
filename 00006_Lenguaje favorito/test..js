@@ -1,6 +1,6 @@
 describe("Hay un método agregarLenguajeFavorito", function() {
   it("", function() {
-    assert(modificarDato);
+    assert(agregarLenguajeFavorito);
   })
 })
 
