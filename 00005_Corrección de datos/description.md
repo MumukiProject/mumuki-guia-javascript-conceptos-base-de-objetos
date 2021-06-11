@@ -1,7 +1,9 @@
+VER SI MODIFICAR LO DEL TELEFONO, QUEREMOS ALGO QUE FUNCIONE SOLO PARA DATOS, O ALGO MÁS PARAMETRIZADO?
+
 Tenemos la variable `datos` que tiene un objeto con los datos de una persona. El teléfono de la misma está mal y tenemos que modificarlo, pero no podemos modificar la definición/creación del objeto.
 
 ```js
-var datos = {
+let datos = {
   id: 1,
   nombre: "Ada",
   apellido: "Lovelace",
@@ -11,4 +13,4 @@ var datos = {
   programa: true,
 };
 ```
-> Definí el método `modificarDato` que reciba una persona por parámetro y modifique el teléfono, asignándole como nuevo número `0192837465`, y la `edad` ya que es un string y necesitamos que sea un número.
+> Definí el método `modificarDato` que modifique el teléfono, asignándole como nuevo número `0192837465`, y la `edad` ya que es un string y necesitamos que sea un número.
