@@ -1,10 +1,8 @@
-- Tenemos la variable `datos` con un objeto que guarda datos de personas
-- Tenemos que programar la siguiente lógica
-  - SI la propiedad `programa` es true
-    - Agregá la propiedad `lenguajeFavorito`, y asignale "Javascript"
+Tenemos la variable `datos` con un objeto que guarda datos de personas. 
+Necesitamos agregar la propiedad `lenguajeFavorito` si la propiedad `programa` es true, y asignarle como valor 'JavaScript'.
 
 ```js
-var datos = {
+let datos = {
   id: 1,
   nombre: "Ada",
   apellido: "Lovelace",
@@ -14,16 +12,5 @@ var datos = {
   programa: true,
 };
 
-// codea aca la solucion
-
-// finalmente, mostramos los datos
-console.log(datos);
-// { id: 1,
-//   nombre: 'Ada',
-//   apellido: 'Lovelace',
-//   email: 'ada.lovelace@gmail.com',
-//   telefono: '1234567890',
-//   edad: 29,
-//   programa: true,
-//   lenguajeFavorito: 'Javascript' }
 ```
+> Defini el método `agregarLenguajeFavorito` para lograr el comportamiento que acabamos de describir.
