@@ -19,3 +19,19 @@ describe("Si tenemos un objeto que tiene la propiedad programa: true y hacemos a
     assert.equal(datos.lenguajeFavorito, 'JavaScript');
   })
 })
+
+describe("Si tenemos un objeto que tiene la propiedad programa: false y hacemos agregarLenguajeFavorito(objeto), la propiedad no se agrega al objeto", function() {
+  it("", function() {
+    let datos = {
+      id: 1,
+      nombre: "Ada",
+      apellido: "Lovelace",
+      email: "ada.lovelace@gmail.com",
+      telefono: "1234567890",
+      edad: 29,
+      programa: false,
+    };
+    agregarLenguajeFavorito(datos)
+    assert.not.equal(datos.lenguajeFavorito, 'JavaScript');
+  })
+})
