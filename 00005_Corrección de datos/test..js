@@ -1,9 +1,3 @@
-describe("Hay un método modificarDato", function() {
-  it("", function() {
-    assert(modificarDato);
-  })
-})
-
 describe("Inicialmente datos tiene como número de teléfono 1234567890", function() {
   it("", function() {
     assert.equal(datos.telefono, 1234567890);
