@@ -4,7 +4,7 @@ describe("Inicialmente datos tiene como número de teléfono 1234567890", functi
   })
 })
 
-describe("Inicialmente datos tiene como edad "29"", function() {
+describe("Inicialmente datos tiene como edad '29', function() {
   it("", function() {
     assert.equal(datos.edad, "29");
   })
