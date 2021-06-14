@@ -1,11 +1,7 @@
-Tenemos un objeto en la variable `banda`, con datos de una banda (nombre, año de lanzamiento, si sigue en actividad, una foto, los integrantes y una lista de sus discos).
-Queremos mostrar:
-
-  1. La duración total del disco (suma de la duración de cada canción);
-  2. La duración promedio por canción (un promedio entre todas las duraciones).
+Para modelar bandas contamos con objetos con su nombre, año de lanzamiento, si sigue en actividad, una foto, el listado de integrantes y una lista de sus discos. Por ejemplo:
 
 ```js
-let banda = {
+let ledZeppelin = {
   nombre: "Led Zeppelin",
   anio: 1968,
   activa: false,
@@ -39,11 +35,17 @@ let banda = {
     },
   ],
 };
+```
 
-ム 
+A partir de un objeto queremos obtener información de la banda de la siguiente forma:
+
+```
+ム informacionDeLaBanda(ledZeppelin)
 Led Zeppelin se fundó en el año 1968
 Tiene 4 miembros: Jimmy Page, Robert Plant, John Paul Jones, John Bonham
 Tiene en total 4 discos
 Tiene en total 9 canciones entre todos los discos.
 En promedio, cada canción dura 1137.888888888889 segundos
 ```
+
+> Definí la función `informacionDeLaBanda`.
