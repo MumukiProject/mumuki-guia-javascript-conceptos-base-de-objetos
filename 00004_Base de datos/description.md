@@ -1,5 +1,3 @@
-HARÍA DOS EJERCICIOS UNO EN DONDE DEFINAN LOS OBJETOS Y EL OTRO EN DONDE CONSULTEN POR CONSOLA.
-
 Nos pasaron un listado de personas y necesitamos guardarlo en una base de datos, los datos que tenemos son `id`, `email`, `nombre` y `teléfono`
 
 ```js
