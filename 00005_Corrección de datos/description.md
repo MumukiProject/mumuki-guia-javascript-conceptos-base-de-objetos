@@ -13,4 +13,4 @@ let datos = {
   programa: true,
 };
 ```
-> Definí el método `modificarDato` que modifique el teléfono, asignándole como nuevo número `0192837465`, y la `edad` ya que es un string y necesitamos que sea un número.
+> Definí el método `modificarTelefono` que reciba un número de teléfono por parámetro y modifique el teléfono, y `modificarEdad` que reciba una edad como argumento y modifique la edad ya que es un string y necesitamos que sea un número.
