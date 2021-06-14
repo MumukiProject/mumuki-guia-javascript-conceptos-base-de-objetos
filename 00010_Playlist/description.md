@@ -1,5 +1,13 @@
-Necesitamos un objeto donde vamos a guardar información sobre una playlist.
-El objeto debe tener las propiedades `nombre` (un string), `privada` (un booleano) y `canciones` (un array de strings).
+Necesitamos obtener la información de las playlist de una conocida plataforma para escuchar música online :notes:. Las playlist son objetos con el siguiente formato...
+
+``` javascript
+let playlistDeEjemplo = {
+  nombre: "Lista de Nirvana",
+  privada: true,
+  canciones: ["Smells Like Teen Spirit", "In Bloom", "Come As You Are"]
+}
+```
+... y queremos visualizar así la información:
 
 ```
 Lista de Nirvana
@@ -9,7 +17,4 @@ Smells Like Teen Spirit
 In Bloom
 Come As You Are
 ```
-> Definí la función `infoDeLaPLaylis` que reciba una playlist por parámetro y retorne la información de la lista como acabamos de describir.
-
-
-- Privada tiene que mostrar **Si** en el caso que la propiedad `privada` sea `true`, o **No** si la propiedad es false
+> Definí la función `infoDeLaPLaylist` que reciba una playlist por parámetro y retorne la información de la lista como acabamos de describir.
