@@ -2,7 +2,7 @@ Tenemos la variable `perfil`, que es un objeto con datos de una persona en linke
 En el objeto hay una propiedad `habilidades`, que es un array con las distintas habilidades de la persona.
 
 ```js
-let perfil = {
+ム let perfil = {
   id: 123456789,
   nombre: "Ada Lovelace",
   url: "https://www.linkedin.com/in/ada-lovelace",
@@ -10,6 +10,8 @@ let perfil = {
 };
 
 ム agregarHabilidad(perfil,'JavaScript')
+
+ム perfil
  { id: 123456789,
    nnombreame: 'Ada Lovelace',
    url: 'https://www.linkedin.com/in/ada-lovelace',
