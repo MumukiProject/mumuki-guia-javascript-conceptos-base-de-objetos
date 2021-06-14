@@ -1,5 +1,3 @@
-//AGREAGAR MÁS CASOS DE TEST?
-
 describe("Si tenemos un objeto que tiene la propiedad programa: true y hacemos agregarLenguajeFavorito(objeto), la propiedad se agrega al objeto", function() {
   it("", function() {
     let datos = {
