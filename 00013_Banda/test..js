@@ -40,7 +40,7 @@ describe("", function() {
 })
 
 describe("", function() {
-  it("Si hacemos informacionDeLaBanda(perotaChingo) retorna Perota Chingó se fundó en el año 2012. Tiene 2 integrantes:  Julia Ortiz, Dolores Aguirre. Tiene en total 4 discos. Tiene en total 43 canciones entre todos los discos. En promedio, cada canción dura 288 segundos.", function() {
+  it("Si hacemos informacionDeLaBanda(perotaChingo) retorna Perota Chingó se fundó en el año 2012. Tiene 2 integrantes: Julia Ortiz, Dolores Aguirre. Tiene en total 4 discos. Tiene en total 43 canciones entre todos los discos. En promedio, cada canción dura 288 segundos.", function() {
     let perotaChingo = {
       nombre: "Perota Chingó",
       anio: 2012,
@@ -76,7 +76,7 @@ describe("", function() {
       ],
     };
     let resultado = informacionDeLaBanda(perotaChingo);
-    assert.equal(resultado, 'Perota Chingó se fundó en el año 2012. Tiene 2 integrantes:  Julia Ortiz, Dolores Aguirre. Tiene en total 4 discos. Tiene en total 43 canciones entre todos los discos. En promedio, cada canción dura 288 segundos.');
+    assert.equal(resultado, 'Perota Chingó se fundó en el año 2012. Tiene 2 integrantes: Julia Ortiz, Dolores Aguirre. Tiene en total 4 discos. Tiene en total 43 canciones entre todos los discos. En promedio, cada canción dura 288 segundos.');
   })
 })
 
