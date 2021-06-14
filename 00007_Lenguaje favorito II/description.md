@@ -1,1 +1,1 @@
-> Modificá la solución anterior, para que se agreguen dos lenguajes de programación  JavaScript y Ruby.
+> Modificá la solución anterior, para que ahora la propiedad sea un array `lenguajesFavoritos` con los elementos `'JavaScript'` y `'Ruby'`.
