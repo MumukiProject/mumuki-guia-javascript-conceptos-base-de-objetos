@@ -40,7 +40,7 @@ describe("", function() {
 })
 
 describe("", function() {
-  it("Si hacemos informacionDeLaBanda(perotaChingo) retorna Perota Chingó se fundó en el año 2012. Tiene 2 integrantes:  Julia Ortiz, Dolores Aguirre. Tiene en total 4 discos. Tiene en total 9 canciones entre todos los discos. En promedio, cada canción dura 1137.888888888889 segundos.", function() {
+  it("Si hacemos informacionDeLaBanda(perotaChingo) retorna Perota Chingó se fundó en el año 2012. Tiene 2 integrantes:  Julia Ortiz, Dolores Aguirre. Tiene en total 4 discos. Tiene en total 43 canciones entre todos los discos. En promedio, cada canción dura 288 segundos.", function() {
     let perotaChingo = {
       nombre: "Perota Chingó",
       anio: 2012,
@@ -52,31 +52,31 @@ describe("", function() {
         {
           nombre: "Aguas",
           anio: 2017,
-          canciones: ["Agua cero, Tres", "Piel", "Certo", "Cancion pequeña", "Reverdecer", "Veo chiquito", "Anhelando Iruya", "Toda vida", "Peguei uma chuva", "Meia vuelta", "L` mar", "Dunas"],
-          duracion: 2691,
+          canciones: ["Agua cero", "Tres", "Piel", "Certo", "Cancion pequeña", "Reverdecer", "Veo chiquito", "Anhelando Iruya", "Toda vida", "Peguei uma chuva", "Meia vuelta", "L` mar", "Dunas"],
+          duracion: 3744,
         },
         {
           nombre: "Muta",
           anio: 2019,
           canciones: ["Toca", "China", "Barro", "Oh Mamae", "Flor de Vida", "Vertigo", "Aurora", "Coral"],
-          duracion: 2502,
+          duracion: 2304,
         },
         {
           nombre: "Un viajecito",
           anio: 2013,
           canciones: ["Tonada de luna llena", "Ando ganas", "Bau del aire", "Ines", "Alma nao tem cor", "La complicidad", "Bañado norte", "Paloma negra", "Besame mucho", "Rie chinito", "Canción para el viento", "El tiempo está después"],
-          duracion: 2489,
+          duracion: 3456,
         },
         {
-          nombre: "Led Zeppelin IV",
+          nombre: "Tocando Tierra",
           anio: 1971,
           canciones: ["Cada paso", "Así viene la vida", "Semillas", "Al rojo", "Entre La Habana y Madrid", "Camino", "Un mundo nuevo", "Ha llovido", "Vueltas", "Los ejes de mi carreta"],
-          duracion: 2559,
+          duracion: 2880,
         },
       ],
     };
     let resultado = informacionDeLaBanda(ledZeppelin);
-    assert.equal(resultado, 'Led Zeppelin se fundó en el año 1968. Tiene 4 integrantes: Jimmy Page, Robert Plant, John Paul Jones, John Bonham. Tiene en total 4 discos. Tiene en total 9 canciones entre todos los discos. En promedio, cada canción dura 1137.888888888889 segundos.');
+    assert.equal(resultado, 'Perota Chingó se fundó en el año 2012. Tiene 2 integrantes:  Julia Ortiz, Dolores Aguirre. Tiene en total 4 discos. Tiene en total 43 canciones entre todos los discos. En promedio, cada canción dura 288 segundos.');
   })
 })
 
