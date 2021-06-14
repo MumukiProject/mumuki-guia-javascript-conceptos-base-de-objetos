@@ -75,7 +75,7 @@ describe("", function() {
         },
       ],
     };
-    let resultado = informacionDeLaBanda(ledZeppelin);
+    let resultado = informacionDeLaBanda(perotaChingo);
     assert.equal(resultado, 'Perota Chingó se fundó en el año 2012. Tiene 2 integrantes:  Julia Ortiz, Dolores Aguirre. Tiene en total 4 discos. Tiene en total 43 canciones entre todos los discos. En promedio, cada canción dura 288 segundos.');
   })
 })
