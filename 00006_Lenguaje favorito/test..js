@@ -32,6 +32,6 @@ describe("Si tenemos un objeto que tiene la propiedad programa: false y hacemos 
       programa: false,
     };
     agregarLenguajeFavorito(datos)
-    assert.not.equal(datos.lenguajeFavorito, 'JavaScript');
+    assert.notEqual(datos.lenguajeFavorito, 'JavaScript');
   })
 })
