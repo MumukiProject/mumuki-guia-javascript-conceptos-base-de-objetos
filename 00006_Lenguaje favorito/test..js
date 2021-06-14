@@ -1,3 +1,5 @@
+//AGREAGAR MÁS CASOS DE TEST?
+
 describe("Hay un método agregarLenguajeFavorito", function() {
   it("", function() {
     assert(agregarLenguajeFavorito);
