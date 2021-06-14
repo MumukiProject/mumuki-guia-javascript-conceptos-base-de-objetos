@@ -29,7 +29,3 @@ describe("Si hacemos modificarEdad(29) la edad es 29", function() {
     assert.equal(datos.edad, 29);
   })
 })
-
-// DOS MÉTODOS DISTINTOS uno modificarEdad(edad) y otro modificarTelefono(telefono)
-
-//Hacer dos test inicialmente
