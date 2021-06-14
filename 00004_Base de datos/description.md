@@ -18,13 +18,3 @@ Nos pasaron un listado de personas y necesitamos guardarlo en una base de datos,
 
 ```
 > Definí un objeto para cada persona.
-
-- Nos pidieron mostrar en la consola los siguientes datos de cada persona:
-
-```js
-1. El nombre de Ada:
-2. El ID de Grace
-3. El email de Hedy
-4. El ID y nombre de Radia
-5. El telefono de Sheryl
-```
