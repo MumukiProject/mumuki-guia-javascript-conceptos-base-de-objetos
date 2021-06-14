@@ -1,5 +1,5 @@
-Teniendo en cuenta los objetos que acabamos de definir tenemos que hacer las siguientes consultas:
-
+> Teniendo en cuenta los objetos que acabamos de definir tenemos que hacer las siguientes consultas:
+> 
 ```js
 1. El nombre de Ada:
 2. El ID de Grace
