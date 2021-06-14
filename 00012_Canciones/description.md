@@ -1,7 +1,6 @@
 Tenemos un array de objetos, que representa un listado de bandas.
 Cada objeto representa una banda, y tiene las propidades `id`, `nombre`, `fundacion`, `activa`.
 
-
 ```js
 let bandas = [
   { id: 1, nombre: "Nirvana", fundacion: 1987, activa: false },
