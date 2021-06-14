@@ -41,11 +41,7 @@ A partir de un objeto queremos obtener información de la banda de la siguiente 
 
 ```
 ム informacionDeLaBanda(ledZeppelin)
-Led Zeppelin se fundó en el año 1968
-Tiene 4 miembros: Jimmy Page, Robert Plant, John Paul Jones, John Bonham
-Tiene en total 4 discos
-Tiene en total 9 canciones entre todos los discos.
-En promedio, cada canción dura 1137.888888888889 segundos
+"Led Zeppelin se fundó en el año 1968. Tiene 4 integrantes: Jimmy Page, Robert Plant, John Paul Jones, John Bonham. Tiene en total 4 discos. Tiene en total 9 canciones entre todos los discos. En promedio, cada canción dura 1137.888888888889 segundos."
 ```
 
 > Definí la función `informacionDeLaBanda`.
