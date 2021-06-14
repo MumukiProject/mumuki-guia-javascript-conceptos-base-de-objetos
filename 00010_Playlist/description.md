@@ -1,6 +1,6 @@
 - Creá un objeto donde vamos a guardar información sobre una playlist de spotify
 - El objeto va a tener las propiedades `nombre` (un string), `privada` (un booleano) y `canciones` (un array de strings).
-- En líneas separadas (un console.log por cada una), mostrá la información de la lista para que sea vea de la siguiente forma:
+- En líneas separadas, mostrá la información de la lista para que sea vea de la siguiente forma:
 
 ```
 Lista de Nirvana
