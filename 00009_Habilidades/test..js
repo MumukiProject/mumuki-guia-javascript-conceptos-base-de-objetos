@@ -7,7 +7,7 @@ describe("", function() {
       habilidades: ["HTML", "CSS", "SASS"],
     };
     agregarHabilidad(perfil, 'JavaScript');
-    assert.deepEqual(perfil.habilidades, ['HTML', 'CSS', 'SASS', 'Javascript']);
+    assert.deepEqual(perfil.habilidades, ['HTML', 'CSS', 'SASS', 'JavaScript']);
   })
 })
 
