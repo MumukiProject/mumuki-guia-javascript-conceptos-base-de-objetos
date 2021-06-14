@@ -1,5 +1,3 @@
-VER SI MODIFICAR LO DEL TELEFONO, QUEREMOS ALGO QUE FUNCIONE SOLO PARA DATOS, O ALGO MÁS PARAMETRIZADO?
-
 Tenemos la variable `datos` que tiene un objeto con los datos de una persona. El teléfono de la misma está mal y tenemos que modificarlo, pero no podemos modificar la definición/creación del objeto.
 
 ```js
