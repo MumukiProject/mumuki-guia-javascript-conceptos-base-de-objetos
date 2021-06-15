@@ -15,14 +15,14 @@ describe("", function() {
 
 describe("", function() {
   it("Si hacemos estanActivas() ", function() {
-    let bandas = [
+    let bandas2 = [
       { id: 1, nombre: "Pink Floyd", fundacion: 1964, activa: false },
       { id: 2, nombre: "Eruca Sativa", fundacion: 2009, activa: true },
       { id: 3, nombre: "Queen", fundacion: 1970, activa: false },
       { id: 4, nombre: "The Beatles", fundacion: 1960, activa: false },
       { id: 5, nombre: "Radiohead", fundacion: 1985, activa: true },
     ];
-    let resultado = estanActivas(bandas);
+    let resultado = estanActivas(bandas2);
     assert.equal(resultado, "Pink Floyd no está activa\nEruca Sativa está activa desde el año 2009\nQueen no está activa\nThe Beatles no está activa\nRadiohead está activa desde el año 1985\n");
   })
 })
