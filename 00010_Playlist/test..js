@@ -1,12 +1,17 @@
 describe("", function() {
-  it("ifoDeLaPlaylist me muestra la información de la misma en el formato correcto", function() {
+  it("infoDeLaPlaylist muestra la información de la manera solicitada", function() {
     let playlist = {
       nombre: "Lista de Nirvana",
       privada: true,
       canciones: ["Smells Like Teen Spirit", "In Bloom", "Come As You Are"]
     }
     let resultado = infoDeLaPlaylist(playlist);
-    assert.equal(resultado, "Lista de Nirvana \n Privada: Sí\n Canciones:\n Smells Like Teen Spirit\nIn Bloom\nCome As You Are\n\n "
+    assert.equal(resultado.includes("Lista de Nirvana")
+    assert.equal(resultado.includes("Privada: Sí")
+    assert.equal(resultado.includes("Canciones:")
+    assert.equal(resultado.includes("Smells Like Teen Spirit")
+    assert.equal(resultado.includes("In Bloom")
+    assert.equal(resultado.includes("Come As You Are")
 );
   })
 })
