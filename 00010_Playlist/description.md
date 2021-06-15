@@ -17,4 +17,4 @@ Smells Like Teen Spirit
 In Bloom
 Come As You Are
 ```
-> Definí la función `infoDeLaPlaylist` que reciba una playlist por parámetro y retorne la información de la lista como acabamos de describir.
+> Definí la función `infoDeLaPlaylist` que reciba una playlist como argumento y retorne la información de la lista como acabamos de describir.
