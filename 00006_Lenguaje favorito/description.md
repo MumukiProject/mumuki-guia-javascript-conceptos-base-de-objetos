@@ -25,4 +25,4 @@ let datos = {
   lenguajeFavorito: 'JavaScript'
 };
 ```
-> Definí el método `agregarLenguajeFavorito` que reciba un objeto por parámetro y agregue la propiedad si corresponde.
+> Definí el método `agregarLenguajeFavorito` que tome un objeto por parámetro y agregue la propiedad si corresponde.
