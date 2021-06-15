@@ -18,7 +18,7 @@ Queens of the Stone Age está activa desde el año 1997
 Pearl Jam está activa desde el año 1990
 ```
 
-> Definí la función `estanActivas` que reciba un array de bandas por parámetro y retorne por cada una de ellas los siguientes mensajes según corresponda:
+> Definí la función `estanActivas` que tome un array de bandas por parámetro y retorne por cada una de ellas los siguientes mensajes según corresponda:
 > 
   - Si la banda está activa: "[NOMBRE DE LA BANDA] está activa desde el año [AÑO DE FUNDACIÓN]";
   - Si la banda NO está activa: "[NOMBRE DE LA BANDA] no está activa".
