@@ -6,7 +6,12 @@ describe("", function() {
       canciones: ["Smells Like Teen Spirit", "In Bloom", "Come As You Are"]
     }
     let resultado = infoDeLaPlaylist(playlist);
-    assert.equal(resultado, "Lista de Nirvana \n Privada: Sí\n Canciones:\n Smells Like Teen Spirit\nIn Bloom\nCome As You Are\n\n "
+    assert.equal(resultado, "Lista de Nirvana"
+                              "Privada: Sí"
+                              "Canciones:"
+                              "Smells Like Teen Spirit"
+                              "In Bloom"
+                              "Come As You Are"
 );
   })
 })
