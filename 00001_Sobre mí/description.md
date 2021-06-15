@@ -2,4 +2,4 @@ Para comenzar este recorrido vamos a empezar creando nuestro primer objeto. :sta
 
 Para ello vamos a declarar una variable que la vamos a llamar `sobreMi`, la misma debe definir un objeto con tres propiedades: `nombre`, `apellido` y `edad`.
 
-> Declara la variable con las propiedades que acabamos de describir.
+> Declará la variable con las propiedades que acabamos de describir.
