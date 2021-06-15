@@ -12,7 +12,7 @@ describe("", function() {
 );
   })
 })
-
+/*
 describe("", function() {
   it("Si hacemos estanActivas() ", function() {
     let bandas = [
@@ -26,3 +26,4 @@ describe("", function() {
     assert.equal(resultado, ' ');
   })
 })
+*/
