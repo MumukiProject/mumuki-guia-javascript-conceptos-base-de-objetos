@@ -1,5 +1,5 @@
 Tenemos un array de objetos, que representa un listado de bandas.
-Cada objeto representa una banda, y tiene las propidades `id`, `nombre`, `fundacion`, `activa`.
+Cada objeto representa una banda, y tiene las propidades `id`, `nombre`, `fundacion`, `activa`. Por ejemplo:
 
 ```js
 let bandas = [
