@@ -12,8 +12,7 @@ describe("", function() {
     assert(resultado.includes("Smells Like Teen Spirit"));
     assert(resultado.includes("In Bloom"));
     assert(resultado.includes("Come As You Are"));
-);
-  })
+    );
 })
 
 describe("", function() {
