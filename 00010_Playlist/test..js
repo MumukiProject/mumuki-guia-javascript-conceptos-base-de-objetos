@@ -19,7 +19,7 @@ describe("", function() {
       canciones: ["Smells Like Teen Spirit", "In Bloom", "Come As You Are"]
     }
     let resultado = infoDeLaPlaylist(playlist);
-    assert(resultado.includes(Privada: Sí));
+    assert(resultado.includes('Privada: Sí'));
 );
   })
 })
