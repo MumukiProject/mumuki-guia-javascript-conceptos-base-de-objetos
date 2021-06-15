@@ -22,7 +22,7 @@ describe("", function() {
       { id: 4, nombre: "The Beatles", fundacion: 1960, activa: false },
       { id: 5, nombre: "Radiohead", fundacion: 1985, activa: true },
     ];
-    resultado = estanActivas(bandas);
+    let resultado = estanActivas(bandas);
     assert.equal(resultado, "Pink Floyd no está activa\nEruca Sativa está activa desde el año 2009\nQueen no está activa\nThe Beatles no está activa\nRadiohead está activa desde el año 1985\n");
   })
 })
