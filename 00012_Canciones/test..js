@@ -8,11 +8,11 @@ describe("", function() {
       { id: 3, nombre: "Pearl Jam", fundacion: 1990, activa: true },
     ];
     resultado = estanActivas(bandas);
-    assert.equal(resultado, "Nirvana no está activa\nFoo Fighters está activa desde el año 1994\nLed Zeppelin no está activa\nQueens of the Stone Age está activa desde el año 1997\nPearl Jam está activa desde el año 1990\n'
-");
+    assert.equal(resultado, "Nirvana no está activa\nFoo Fighters está activa desde el año 1994\nLed Zeppelin no está activa\nQueens of the Stone Age está activa desde el año 1997\nPearl Jam está activa desde el año 1990\n"
+);
   })
 })
-/*
+
 describe("", function() {
   it("Si hacemos estanActivas() ", function() {
     let bandas = [
@@ -25,4 +25,4 @@ describe("", function() {
     resultado = estanActivas(bandas);
     assert.equal(resultado, ' ');
   })
-})*/
+})
