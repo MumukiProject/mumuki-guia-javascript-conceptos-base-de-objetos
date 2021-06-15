@@ -20,6 +20,5 @@ describe("", function() {
     }
     let resultado = infoDeLaPlaylist(playlist);
     assert(resultado.includes('Privada: Sí'));
-);
   })
 })
