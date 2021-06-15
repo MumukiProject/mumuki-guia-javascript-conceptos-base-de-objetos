@@ -22,3 +22,15 @@ describe("", function() {
     assert(resultado.includes('Privada: Sí'));
   })
 })
+
+describe("", function() {
+  it("Si la playlist dice privada false se muestra Privada: No", function() {
+    let playlist = {
+      nombre: "Lista de Nirvana",
+      privada: false,
+      canciones: ["Smells Like Teen Spirit", "In Bloom", "Come As You Are"]
+    }
+    let resultado = infoDeLaPlaylist(playlist);
+    assert(resultado.includes('Privada: No'));
+  })
+})
