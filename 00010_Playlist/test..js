@@ -6,12 +6,12 @@ describe("", function() {
       canciones: ["Smells Like Teen Spirit", "In Bloom", "Come As You Are"]
     }
     let resultado = infoDeLaPlaylist(playlist);
-    assert.equal(resultado.includes("Lista de Nirvana")
-    assert.equal(resultado.includes("Privada: Sí")
-    assert.equal(resultado.includes("Canciones:")
-    assert.equal(resultado.includes("Smells Like Teen Spirit")
-    assert.equal(resultado.includes("In Bloom")
-    assert.equal(resultado.includes("Come As You Are")
+    assert(resultado.includes("Lista de Nirvana");
+    assert(resultado.includes("Privada: Sí");
+    assert(resultado.includes("Canciones:");
+    assert(resultado.includes("Smells Like Teen Spirit");
+    assert(resultado.includes("In Bloom");
+    assert(resultado.includes("Come As You Are");
 );
   })
 })
