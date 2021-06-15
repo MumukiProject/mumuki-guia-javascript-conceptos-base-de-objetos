@@ -1,5 +1,5 @@
 describe("", function() {
-  it("Si hacemos estanActivas() ", function() {
+  it("Si hacemos estanActivas('Nirvana', 'Foo Fighters', 'Led Zeppelin' 'Queens of the Stone Age', 'Pearl Jam') retorna cada una de las bandas con el formato y el mensaje correcto ", function() {
     let bandas = [
       { id: 1, nombre: "Nirvana", fundacion: 1987, activa: false },
       { id: 2, nombre: "Foo Fighters", fundacion: 1994, activa: true },
@@ -14,7 +14,7 @@ describe("", function() {
 })
 
 describe("", function() {
-  it("Si hacemos estanActivas() ", function() {
+  it("Si hacemos estanActivas('Pink Floyd', 'Eruca Sativa', 'Queen', 'The Beatles', 'Radiohead') retorna cada una de las bandas con el formato y el mensaje correcto", function() {
     let bandas2 = [
       { id: 1, nombre: "Pink Floyd", fundacion: 1964, activa: false },
       { id: 2, nombre: "Eruca Sativa", fundacion: 2009, activa: true },
