@@ -18,4 +18,4 @@ En el objeto hay una propiedad `habilidades`, que es un array con las distintas 
    habilidades: [ 'HTML', 'CSS', 'SASS', 'Javascript' ] }
 ```
 
-> Definí el método `agregarHabilidad` que reciba un `perfil` y una `habilidad` por parámetro y permita actualizar el perfil agregando la habilidad a al array de `habilidades`.
+> Definí el método `agregarHabilidad` que tome un `perfil` y una `habilidad` por parámetro y permita actualizar el perfil agregando la habilidad al array de `habilidades`.
