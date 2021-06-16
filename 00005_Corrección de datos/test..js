@@ -12,14 +12,14 @@ describe("Inicialmente datos tiene como edad '29'", function() {
 
 describe("Si hacemos modificarTelefono(0987654321) el número de télefono se modifica con ese número", function() {
   it("", function() {
-    datos.modificarTelefono(0987654321)
+    modificarTelefono(0987654321)
     assert.equal(datos.telefono, 0987654321);
   })
 })
 
 describe("Si hacemos modificarEdad(29) la edad es 29", function() {
   it("", function() {
-    datos.modificarEdad(29);
+    modificarEdad(29);
     assert.equal(datos.edad, 29);
   })
 })
