@@ -30,4 +30,4 @@ Necesitamos agregar la propiedad `lenguajeFavorito` si la propiedad `programa` e
 };
 ```
 
-> Definí el método `agregarLenguajeFavorito` que tome un objeto por parámetro y agregue la propiedad si corresponde.
+> Definí el procedimiento `agregarLenguajeFavorito` que tome un objeto por parámetro y agregue la propiedad si corresponde.
