@@ -10,7 +10,7 @@ describe("Si tenemos un objeto que tiene la propiedad programa: true y hacemos a
       programa: true,
     };
     agregarLenguajeFavorito(datos)
-    assert.deepEqual(datos.lenguajeFavorito, ['JavaScript', 'Ruby']);
+    assert.deepEqual(datos.lenguajesFavoritos, ['JavaScript', 'Ruby']);
   })
 })
 
@@ -26,6 +26,6 @@ describe("Si tenemos un objeto que tiene la propiedad programa: false y hacemos 
       programa: false,
     };
     agregarLenguajeFavorito(datos)
-    assert.notEqual(datos.lenguajeFavorito, ['JavaScript', 'Ruby']);
+    assert.notEqual(datos.lenguajesFavoritos, ['JavaScript', 'Ruby']);
   })
 })
