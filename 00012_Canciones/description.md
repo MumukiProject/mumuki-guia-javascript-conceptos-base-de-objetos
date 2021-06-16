@@ -10,7 +10,8 @@ let bandas = [
   { id: 3, nombre: "Pearl Jam", fundacion: 1990, activa: true },
 ];
 
-ム estanActivas(bandas);
+ム estanActivas(bandas)
+
 Nirvana no está activa
 Foo Fighters está activa desde el año 1994
 Led Zeppelin no está activa
