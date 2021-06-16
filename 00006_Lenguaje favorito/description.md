@@ -1,5 +1,4 @@
-Tenemos la variable `datos` con un objeto que guarda datos de personas. 
-Necesitamos agregar la propiedad `lenguajeFavorito` si la propiedad `programa` es true, y asignarle como valor 'JavaScript'.
+Tenemos un programa que almacena los datos de una persona de la siguiente forma:
 
 ```js
 let datos = {
@@ -11,10 +10,15 @@ let datos = {
   edad: 29,
   programa: true,
 };
+```
+ 
+Necesitamos agregar la propiedad `lenguajeFavorito` si la propiedad `programa` es true, y asignarle como valor 'JavaScript'. Por ejemplo:
 
-ム agregarLenguajeFavorito(datos);
-ム datos;
-  {
+```js
+ム agregarLenguajeFavorito(datos)
+
+ム datos
+{
   id: 1,
   nombre: "Ada",
   apellido: "Lovelace",
@@ -25,4 +29,5 @@ let datos = {
   lenguajeFavorito: 'JavaScript'
 };
 ```
+
 > Definí el método `agregarLenguajeFavorito` que tome un objeto por parámetro y agregue la propiedad si corresponde.

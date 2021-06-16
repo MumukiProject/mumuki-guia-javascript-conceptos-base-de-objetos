@@ -1,11 +1,3 @@
-//AGREAGAR MÁS CASOS DE TEST?
-
-describe("Hay un método agregarLenguajeFavorito", function() {
-  it("", function() {
-    assert(agregarLenguajeFavorito);
-  })
-})
-
 describe("Si tenemos un objeto que tiene la propiedad programa: true y hacemos agregarLenguajeFavorito(objeto), la propiedad se agrega al objeto", function() {
   it("", function() {
     let datos = {
