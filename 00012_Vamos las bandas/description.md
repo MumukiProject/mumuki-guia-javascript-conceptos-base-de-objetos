@@ -5,6 +5,7 @@ Contamos con distintas bandas que se almacenan con el siguiente formato:
 ```
 
 A partir de un array de bandas queremos saber si están activas o no de la siguiente forma:
+
 ```js
 let bandas = [
   { id: 1, nombre: "Nirvana", fundacion: 1987, activa: false },
