@@ -1,1 +1,1 @@
-> Modificá la solución anterior, para que ahora el método se llame `agregarLenguajesFavoritos` y que  agregue un array `lenguajesFavoritos` con los elementos `'JavaScript'` y `'Ruby'`.
+> Modificá la solución anterior, para que ahora el procedimiento se llame `agregarLenguajesFavoritos` y que  agregue un array `lenguajesFavoritos` con los elementos `'JavaScript'` y `'Ruby'`.
