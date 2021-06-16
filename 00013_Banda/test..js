@@ -4,10 +4,10 @@ describe("", function() {
       nombre: "Led Zeppelin",
       anio: 1968,
       activa: false,
-      thumbnail:
+      miniatura:
         "http://townsquare.media/site/295/files/2014/10/Led-Zeppelin1.jpg?w=980&q=75",
       integrantes: ["Jimmy Page", "Robert Plant", "John Paul Jones", "John Bonham"],
-      albums: [
+      discos: [
         {
           nombre: "Led Zeppelin",
           anio: 1969,
@@ -45,10 +45,10 @@ describe("", function() {
       nombre: "Perota Chingó",
       anio: 2012,
       activa: true,
-      thumbnail:
+      miniatura:
         "http://townsquare.media/site/295/files/2014/10/Led-Zeppelin1.jpg?w=980&q=75",
       integrantes: ["Julia Ortiz", "Dolores Aguirre"],
-      albums: [
+      discos: [
         {
           nombre: "Aguas",
           anio: 2017,
