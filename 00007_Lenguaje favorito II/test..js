@@ -1,4 +1,4 @@
-describe("Si tenemos un objeto que tiene la propiedad programa: true y hacemos agregarLenguajeFavorito(objeto), la propiedad se agrega al objeto", function() {
+describe("Si tenemos un objeto que tiene la propiedad programa: true y hacemos agregarLenguajesFavoritos(objeto), la propiedad se agrega al objeto", function() {
   it("", function() {
     let datos = {
       id: 1,
@@ -9,12 +9,12 @@ describe("Si tenemos un objeto que tiene la propiedad programa: true y hacemos a
       edad: 29,
       programa: true,
     };
-    agregarLenguajeFavorito(datos)
+    agregarLenguajesFavoritos(datos)
     assert.deepEqual(datos.lenguajesFavoritos, ['JavaScript', 'Ruby']);
   })
 })
 
-describe("Si tenemos un objeto que tiene la propiedad programa: false y hacemos agregarLenguajeFavorito(objeto), la propiedad no se agrega al objeto", function() {
+describe("Si tenemos un objeto que tiene la propiedad programa: false y hacemos agregarLenguajesFavoritos(objeto), la propiedad no se agrega al objeto", function() {
   it("", function() {
     let datos = {
       id: 1,
@@ -25,7 +25,7 @@ describe("Si tenemos un objeto que tiene la propiedad programa: false y hacemos 
       edad: 29,
       programa: false,
     };
-    agregarLenguajeFavorito(datos)
+    agregarLenguajesFavoritos(datos)
     assert.notEqual(datos.lenguajesFavoritos, ['JavaScript', 'Ruby']);
   })
 })
