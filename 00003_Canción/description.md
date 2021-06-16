@@ -3,11 +3,11 @@ Contamos con algunos objetos que representan canciones de _Spotify_. Peeero tien
 Queremos una función `cancion` que retorne un nuevo objeto, a partir de las propiedades del objeto que recibimos como argumento. El mismo debe tener las propiedades `titulo`, `banda`, y `duracion` (en segundos, ya que en el parámetro está en milisegundos). Por ejemplo:
 
 ```js
-let song = {
+ム let song = {
   title: "Rock and Roll",
   bandName: "Led Zeppelin",
   duration: 166000,
-  album: "Led Zeppelin IV",
+  album: "Led Zeppelin IV"
 };
 
 ム cancion(song)
