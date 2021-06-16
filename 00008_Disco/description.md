@@ -1,4 +1,4 @@
-Queremos obtener el nombre, año de lanzamiento y  banda de un disco, para mostrar el mensaje "El disco [NOMBRE DISCO] de la banda [NOMBRE DE LA BANDA] se lanzó en el año [AÑO DE LANZAMIENTO DEL DISCO]". Por ejemplo:
+Queremos obtener el nombre, año de lanzamiento y  banda de un disco :minidisc:, para mostrar el mensaje "El disco [NOMBRE DISCO] de la banda [NOMBRE DE LA BANDA] se lanzó en el año [AÑO DE LANZAMIENTO DEL DISCO]". Por ejemplo:
 
 ```js
 let disco = {
