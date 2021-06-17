@@ -5,7 +5,7 @@ describe("", function() {
       apellido: 'Seldon',
       edad: 48
     }
-    assert.equal(perfilpresentacion(),'Hola, mi nombre es Juli Seldon y tengo 48 años');
+    assert.equal(presentacion(perfil),'Hola, mi nombre es Juli Seldon y tengo 48 años');
   })
 })
 
@@ -16,6 +16,6 @@ describe("", function() {
       apellido: 'Hardin',
       edad: 15
     };
-    assert.equal(perfilpresentacion(),'Hola, mi nombre es Agus Hardin y tengo 15 años');
+    assert.equal(presentacion(perfil),'Hola, mi nombre es Agus Hardin y tengo 15 años');
   })
 })
