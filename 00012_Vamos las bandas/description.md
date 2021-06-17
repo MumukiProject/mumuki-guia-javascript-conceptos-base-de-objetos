@@ -16,12 +16,13 @@ let bandas = [
 ];
 
 ム estanActivas(bandas)
-
+`
 Nirvana no está activa
 Foo Fighters está activa desde el año 1994
 Led Zeppelin no está activa
 Queens of the Stone Age está activa desde el año 1997
 Pearl Jam está activa desde el año 1990
+`
 ```
 
 > Definí la función `estanActivas` que tome un array de bandas por parámetro y retorne por cada una de ellas los siguientes mensajes según corresponda.
