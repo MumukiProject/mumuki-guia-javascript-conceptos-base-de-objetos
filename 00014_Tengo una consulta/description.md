@@ -1,4 +1,4 @@
-> Teniendo en cuenta los objetos que acabamos de definir tenemos que hacer las siguientes consultas:
+> Teniendo en cuenta los objetos que acabamos de definir hacé en la consola las consultas necesarias para saber:
 > 
 ```js
 1. El nombre de Ada:
